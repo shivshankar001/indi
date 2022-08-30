@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+body{
+    background-color: rgb(80, 69, 69);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'ubuntu', sans-serif;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: green;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul li span{
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    width: 65px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh;
+    /* display: flex;
+    margin: 23px auto; */
+    /* background-image: url('bg.jpg'); */
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: rgb(111, 54, 54);
+    top: 550em;
+    /* bottom: 0px; */
+    /* width: 1300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 20px;
+}
+#myprogressbar{
+    width: 80vh;
+}
